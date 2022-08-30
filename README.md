@@ -4,7 +4,7 @@ This notebook has been tested with a Vertex AI workbench running on a m1-ultrame
 
 This notebook has been tested on machines as small as n1-standard4 (4 vCPU, 15GB of RAM), using 1TB of SSD swap space.  Relying on swap slows the JSON parsing significantly - one example JSON that was approximately 120GB in total size took roughly three days to fully process; however, the machine cost is significantly lower using swap versus memory.
 
-To create a 1TB swap file, first create a GCP VM with at least a 1150GB root volume.
+To create a 1TB swap file, first create a GCP VM or Vertex Workspace notebook server with at least a 1150GB root volume.
 
 Next:
 
